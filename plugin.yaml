@@ -1,6 +1,0 @@
-name: "python-template"
-description: "python example plugin"
-tags:
-  - python
-  - shell
-provider: "blink"
