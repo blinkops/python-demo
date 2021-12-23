@@ -1,0 +1,16 @@
+# Describes the action and it's parameters
+name: "sum"
+description: "Sum two numbers in python"
+enabled: true
+entry_point: "run_python.sh"
+parameters:
+  first:
+    type: "int"
+    description: "first number"
+    required: true
+  second:
+    type: "int"
+    description: "second number"
+    required: true
+
+
